@@ -1,2 +1,2 @@
-# xylo
+# xylophone
 xylophone using React Hooks
