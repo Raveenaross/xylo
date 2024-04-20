@@ -1,0 +1,63 @@
+* {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.grid-container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-columns: repeat(8, auto);
+  cursor: pointer;
+}
+
+.grid-item {
+  padding: 20px;
+  text-align: justify;
+}
+
+.grid-item:nth-of-type(1) {
+  background-color: red;
+  border: red;
+}
+
+.grid-item:nth-of-type(2) {
+  background-color: orange;
+  border: orange
+}
+
+.grid-item:nth-of-type(3) {
+  background-color: yellow;
+  border: yellow
+}
+
+.grid-item:nth-of-type(4) {
+  background-color: greenyellow;
+  border: yellowgreen;
+}
+
+.grid-item:nth-of-type(5) {
+  background-color: green;
+  border: green;
+}
+
+.grid-item:nth-of-type(6) {
+  background-color: #124076;
+  border: #124076
+}
+
+.grid-item:nth-of-type(7) {
+  background-color: #45FFCA;
+  border: #45FFCA;
+}
+
+.grid-item:nth-of-type(8) {
+  background-color: #FF204E;
+  border: #FF204E;
+}
+
+h1 {
+  transform: rotate(270deg);
+  color: white;
+}
